@@ -7,7 +7,7 @@ function greeting() {
 
 
 function about() {
-	document.getElementById("content").innerHTML="I am me. I am learning gitkraken.";
+	document.getElementById("content").innerHTML="I am me.";
 }
 
 
