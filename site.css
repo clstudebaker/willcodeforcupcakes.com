@@ -1,0 +1,141 @@
+body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: "Avantgarde", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        /*background-image: url("https://s3-us-west-1.amazonaws.com/www.carrie-studebaker.com/siteImages/IMG_2897.JPG");*/
+        
+    }
+
+
+img {
+            display: block;
+            width:150px;
+            margin-left:auto;
+            margin-right:auto;
+
+        }
+
+   
+div {
+        background-color: #fff;
+        text-align: center;
+        width: 50%;
+        /*margin: 25px 50px 75px 100px; */ /*top, right, bottom, left*/
+        margin: 2em auto;
+        padding: 3px 3px 3px 3px;  /*top, right, bottom, left*/
+
+}
+
+
+#navigation {
+            /*border-radius: 1em;*/
+            }
+
+#primary    {
+            width: 60%;
+            border-radius: 1em;
+            }
+
+#content    {
+
+            }
+
+#chinese    {
+            font-size:26px;
+            /* this is for use with chinese characters so they are larger and easier to read*/
+            }
+
+#calculator {
+             width: 55%;
+            border-radius: 1em;
+            border-style: double;
+            }
+
+#calculator input   {
+                    width:75px;
+                    height:50px;
+                    font-size:30px;
+                    border-radius:10px;
+                    margin:5px;
+                    background-color:#000;
+                    color:#fff;
+                    border-style:inset;
+                    
+                    }
+
+#calculator h1      {
+                    text-align:center;
+                    font-size:50px;
+                    }
+
+.calc_display       {
+
+                    }
+
+.calc_keys          {
+                    /*display: grid;*/
+                    }
+
+
+#myform     {
+            /*margin-left:225px;*/
+            margin-top:20px;
+            /*border:medium solid purple;*/
+            }
+
+
+#clock  {
+        color: #fff;
+        font-size: 25px;
+        background-color:#000;
+        padding: 0.5em 0em;
+
+        width: 55%;
+        margin: 0px auto;
+        font-family: Helvetica,Arial;
+        text-align: center;
+
+        }
+/*
+#banner {
+        color: #fefefe;
+        font-size: 50px;
+        text-align:center;
+        background-color:#EB6C52;
+        padding: 0.5em 0em;
+        width: 80%;
+        margin: 10% auto 0%;
+        font-family: Helvetica, Arial;
+        text-align: left;
+        text-transform:uppercase;
+        }
+*/
+
+
+
+button {
+        background-color:#fff;
+        font-color:black;
+        border-radius: 1em;
+        padding: 0px 10px 0px 10px;  /*top, right, bottom, left*/
+        }
+
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        body {
+            background-color: #fff;
+        }
+        div {
+
+            width: auto;
+            margin: auto;
+            border-radius: 0;
+            padding: 1em;
+        }
+
+    
+    }
